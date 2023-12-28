@@ -1,0 +1,148 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: antiquewhite;
+    
+
+    
+}
+
+#leaf2{
+    position: relative;
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-bottom: -30px;
+    display: inline;
+}
+
+.container{
+    padding-top: 0px;
+    position: relative;
+    background-image: url("img/nature.jpg") ;
+    /* background-size: 100rem; */
+    height: 50vh;
+    padding-left: 50px;
+
+    
+   
+}
+.topMe{
+    display: flex;  
+    flex-direction: row;
+    justify-content:center;
+}
+
+#leaf2{
+    position: relative;
+    align-items: end;
+}
+.topMe li{ 
+   margin-left: 30px;
+   list-style: none;
+}
+
+
+button{
+    margin-top: -15px;
+    margin-left: 150px;
+    padding: 10px;
+    height: 40px;
+    width: 150px;
+    border: 3px solid;
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 5px, 0px, 10px, 10px;
+}
+
+.container h6{
+   margin-left: 350px;
+    margin-top: 30rem;
+    color: rgb(209, 6, 6);
+    background-color: beige;
+    width: 300px;
+    font-weight:bolder;
+    font-size: 20px;
+}
+
+#headSub{
+
+    background-color: rgb(31, 29, 29);
+    padding-top: 1rem;
+    color: aliceblue;
+}
+
+#headSub h4{
+    padding-left: 350px;
+    margin-top: -45px;
+    color: azure;
+}
+
+#headSub h1{
+    padding-left: 350px;
+    margin-top: -20px;
+    font-size: 70px;
+}
+#headSub h6{
+    
+    color: rgb(226, 128, 58);
+   font-weight: bolder;
+}
+
+#firstside{
+    position: relative;
+    display: flex;
+    flex-direction:column;   
+    display: inline; 
+}
+
+#textSer{
+    color: coral;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: -30px;
+
+}
+#firstside h6{
+    margin-left: 350px;
+    font-size: 15px;
+    
+}
+#firstside h1{
+    margin-left: 350px;
+    font-size:50px;
+    color: black;
+    margin-bottom: -30px;
+  
+}
+
+#secondside{
+    float: right;
+    margin-top: -150px;
+   margin-right:600px ;
+
+}
+
+ol li{
+    font-size: 28px;
+
+  
+}
+
+#footdiv1{
+   position: fixed;
+  bottom: 0;
+  background-color: rgb(177, 149, 34);
+  width: 100%;
+
+}
+
+#comfoot{
+    position: relative;
+    /* display: inline; */
+    display: flex;
+    margin-left: 50%;
+    
+  
+   
+
+}
