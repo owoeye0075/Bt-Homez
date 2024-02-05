@@ -87,7 +87,10 @@ button{
     color: rgb(226, 128, 58);
    font-weight: bolder;
 }
-
+ .bottomPart{
+     display: grid;
+     grid-template-colum: 1fr 1fr;
+ }
 #firstside{
     position: relative;
     display: flex;
